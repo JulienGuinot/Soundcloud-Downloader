@@ -23,19 +23,23 @@ This tool is meant for **personal use only**. Don't go pirating music like a 200
 
 2. Install dependencies:  
    ```sh
-   pip install -r requirements.txt
+   npm install
    ```
 
 3. Get your **User ID** and **Client ID**:  
-   - Find your **SoundCloud User ID** (Google it, or use the API).  
-   - Get your **Client ID** (or generate one from SoundCloud’s API).  
+  Just navigate on souncloud and anlyze the requests to api,
+you'll see your client_id and user_id in the request parameters
 
 4. Run the script:  
    ```sh
-   python downloader.py --user-id YOUR_USER_ID --client-id YOUR_CLIENT_ID
+   bun downloader.js
+   or
+   node downloader.js
+   i don't care really
    ```
 
-5. Boom 💥! Your **liked tracks** will start downloading into a folder.  
+5. Boom 💥! Your **liked tracks** will start downloading into a folder.
+6. to play them i recmmend using VLC on your mobile phone or other media player ad-free
 
 ## 🎧 Enjoy the Ad-Free Life  
 Now go forth and **vibe uninterrupted**.  
